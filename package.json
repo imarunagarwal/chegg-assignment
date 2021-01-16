@@ -2,6 +2,7 @@
   "name": "xt-hiring-assignment",
   "version": "0.0.0",
   "scripts": {
+    "format": "prettier \"src/**/*.{js,ts,css,html}\" --write",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -19,11 +20,14 @@
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
+    "prettier": "^2.2.1",
     "@angular-devkit/build-angular": "~0.901.7",
     "@angular/cli": "~9.1.7",
     "@angular/compiler-cli": "~9.1.9",
