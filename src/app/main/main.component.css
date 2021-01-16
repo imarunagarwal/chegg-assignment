@@ -1,0 +1,77 @@
+.btn-green {
+  background-color: #c0e895;
+}
+
+.card-deck {
+  margin: 0px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  max-height: 87vh;
+  max-width: 100vw;
+  align-items: stretch;
+}
+
+.content {
+  overflow-y: scroll;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for chrome */
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar {
+  background-color: white;
+  margin: 5px;
+  min-height: 90vh;
+  min-width: 28vw;
+  border-radius: 3px;
+}
+
+.sidebar .row {
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.25rem 0;
+}
+
+.card {
+  margin: 5px;
+}
+
+@media (max-width: 1024px) and (min-width: 700px) {
+  .cards {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    display: block;
+  }
+
+  .cards {
+    grid-template-columns: auto;
+  }
+}

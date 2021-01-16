@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: lightgrey;
+}
+
+.row {
+  margin: 0px;
+}
+
+a {
+  color: white;
+}
+
+a:hover,
+a:focus {
+  color: black;
+}

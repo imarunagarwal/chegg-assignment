@@ -1,8 +1,3 @@
-<form (ngSubmit)="search()">
-  <input type="text" name="year" #year="ngModel" [(ngModel)]="yearFilter" placeholder="Launch Year" required />
-  <input type="text" name="launch" #launch="ngModel" [(ngModel)]="launchFilter" placeholder="Launch Successful"
-    required />
-  <input type="text" name="landing" #landing="ngModel" [(ngModel)]="landingFilter" placeholder="Landing Successful"
-    required />
-  <button type="submit" (ngSubmit)="search()">Search</button>
-</form>
+<app-header></app-header>
+<app-main></app-main>
+<app-footer></app-footer>

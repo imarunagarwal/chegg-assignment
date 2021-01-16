@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { SpaceXDataService } from './services/space-xdata.service';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HeaderComponent],
+  declarations: [AppComponent, FooterComponent, HeaderComponent, MainComponent],
   imports: [FormsModule, BrowserModule, HttpClientModule],
   providers: [SpaceXDataService],
   bootstrap: [AppComponent],
