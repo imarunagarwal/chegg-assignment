@@ -11,9 +11,6 @@ export class MainComponent {
   year: string;
   launch: string;
   landing: string;
-  yearFilter: string;
-  launchFilter: string;
-  landingFilter: string;
   shipsData: SpaceXObject[];
 
   constructor(private spaceXDataService: SpaceXDataService) {
